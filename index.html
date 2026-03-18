@@ -6,6 +6,17 @@
     <meta name="description" content="Photography portfolio of Gio DeFiore — portrait, editorial, and concert photography." />
     <title>Gio DeFiore — Photography</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Decode the path that 404.html encoded into the query string
+      (function(l) {
+        if (l.search[1] === 'p' && l.search[2] === '=') {
+          var decoded = l.search.slice(3).replace(/~and~/g, '&');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
   </head>
   <body>
     <div id="root"></div>
