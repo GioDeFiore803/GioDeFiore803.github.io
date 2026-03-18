@@ -26,7 +26,7 @@ export const projects = [
   {
     id: 'cindy-sherman',
     title: 'Cindy Sherman Inspiration',
-    cover: '/images/DeFiore-A01Week06selects-1.jpg',
+    cover: '/images/DeFiore-A01Week06selects-4.jpg',
     photos: [
       { id: 'cs-1', src: '/images/DeFiore-A01Week06selects-1.jpg', thumb: '/images/DeFiore-A01Week06selects-1.jpg', alt: 'Cindy Sherman Inspiration' },
       { id: 'cs-2', src: '/images/DeFiore-A01Week06selects-2.jpg', thumb: '/images/DeFiore-A01Week06selects-2.jpg', alt: 'Cindy Sherman Inspiration' },
@@ -38,7 +38,7 @@ export const projects = [
   {
     id: 'first-film',
     title: 'First Film Photos',
-    cover: '/images/FirstFilm-1.jpg',
+    cover: '/images/FirstFilm-8.jpg',
     photos: [
       { id: 'ff-1', src: '/images/FirstFilm-1.jpg', thumb: '/images/FirstFilm-1.jpg', alt: 'First Film Photos' },
       { id: 'ff-2', src: '/images/FirstFilm-2.jpg', thumb: '/images/FirstFilm-2.jpg', alt: 'First Film Photos' },
