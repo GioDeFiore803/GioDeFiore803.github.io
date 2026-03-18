@@ -1,24 +1,15 @@
 import { Link } from 'react-router-dom'
-import { springBreakPhotos } from '../data/photos'
-import Lightbox from '../components/Lightbox'
-import useLightbox from '../hooks/useLightbox'
-
-const heroPhoto = { id: 'sb-5', src: '/images/PA_SpringBreak_Selects-5.jpg', alt: 'Spring Break 2026' }
-const heroImageSrc = '/images/hero.jpg'
 
 export default function Home() {
-  const lightbox = useLightbox(springBreakPhotos)
-
   return (
     <div>
-      {/* Hero — click to open slideshow */}
+      {/* Hero */}
       <div
-        className="relative bg-gray-100 cursor-pointer"
+        className="relative bg-gray-100"
         style={{ height: 'calc(100svh - 55px)', minHeight: 'calc(100vh - 55px)' }}
-        onClick={() => lightbox.open(heroPhoto)}
       >
         <img
-          src={heroImageSrc}
+          src="/images/hero.jpg"
           alt="Giovanni DeFiore"
           loading="eager"
           className="w-full h-full object-cover"
@@ -32,7 +23,7 @@ export default function Home() {
           Photography
         </p>
         <h1 className="text-2xl md:text-3xl font-light tracking-wide text-brand-black mb-6 max-w-sm leading-snug">
-          Gio DeFiore
+          Giovanni DeFiore
         </h1>
         <p className="text-[15px] text-brand-gray leading-relaxed max-w-md mb-10">
           Portrait, editorial, and concert photography based in New York.
@@ -44,16 +35,6 @@ export default function Home() {
           View Work
         </Link>
       </div>
-
-      {lightbox.isOpen && (
-        <Lightbox
-          photos={springBreakPhotos}
-          currentIndex={lightbox.currentIndex}
-          onClose={lightbox.close}
-          onNext={lightbox.next}
-          onPrev={lightbox.prev}
-        />
-      )}
     </div>
   )
 }
