@@ -24,6 +24,33 @@ export const projects = [
     ],
   },
   {
+    id: 'cindy-sherman',
+    title: 'Cindy Sherman Inspiration',
+    cover: '/images/DeFiore-A01Week06selects-1.jpg',
+    photos: [
+      { id: 'cs-1', src: '/images/DeFiore-A01Week06selects-1.jpg', thumb: '/images/DeFiore-A01Week06selects-1.jpg', alt: 'Cindy Sherman Inspiration' },
+      { id: 'cs-2', src: '/images/DeFiore-A01Week06selects-2.jpg', thumb: '/images/DeFiore-A01Week06selects-2.jpg', alt: 'Cindy Sherman Inspiration' },
+      { id: 'cs-3', src: '/images/DeFiore-A01Week06selects-3.jpg', thumb: '/images/DeFiore-A01Week06selects-3.jpg', alt: 'Cindy Sherman Inspiration' },
+      { id: 'cs-4', src: '/images/DeFiore-A01Week06selects-4.jpg', thumb: '/images/DeFiore-A01Week06selects-4.jpg', alt: 'Cindy Sherman Inspiration' },
+      { id: 'cs-5', src: '/images/DeFiore-A01Week06selects-5.jpg', thumb: '/images/DeFiore-A01Week06selects-5.jpg', alt: 'Cindy Sherman Inspiration' },
+    ],
+  },
+  {
+    id: 'first-film',
+    title: 'First Film Photos',
+    cover: '/images/FirstFilm-1.jpg',
+    photos: [
+      { id: 'ff-1', src: '/images/FirstFilm-1.jpg', thumb: '/images/FirstFilm-1.jpg', alt: 'First Film Photos' },
+      { id: 'ff-2', src: '/images/FirstFilm-2.jpg', thumb: '/images/FirstFilm-2.jpg', alt: 'First Film Photos' },
+      { id: 'ff-3', src: '/images/FirstFilm-3.jpg', thumb: '/images/FirstFilm-3.jpg', alt: 'First Film Photos' },
+      { id: 'ff-4', src: '/images/FirstFilm-4.jpg', thumb: '/images/FirstFilm-4.jpg', alt: 'First Film Photos' },
+      { id: 'ff-5', src: '/images/FirstFilm-5.jpg', thumb: '/images/FirstFilm-5.jpg', alt: 'First Film Photos' },
+      { id: 'ff-6', src: '/images/FirstFilm-6.jpg', thumb: '/images/FirstFilm-6.jpg', alt: 'First Film Photos' },
+      { id: 'ff-7', src: '/images/FirstFilm-7.jpg', thumb: '/images/FirstFilm-7.jpg', alt: 'First Film Photos' },
+      { id: 'ff-8', src: '/images/FirstFilm-8.jpg', thumb: '/images/FirstFilm-8.jpg', alt: 'First Film Photos' },
+    ],
+  },
+  {
     id: 'placeholder-editorial',
     title: 'Editorial',
     cover: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=900&q=80',
