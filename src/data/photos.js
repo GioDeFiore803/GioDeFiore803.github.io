@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 'spring-break-2026',
-    title: 'Spring Break 2026',
+    title: 'A day with my Mom',
     cover: '/images/PA_SpringBreak_Selects-5.jpg',
     photos: [
       { id: 'sb-1',  src: '/images/PA_SpringBreak_Selects-1.jpg',  thumb: '/images/PA_SpringBreak_Selects-1.jpg',  alt: 'Spring Break 2026' },
