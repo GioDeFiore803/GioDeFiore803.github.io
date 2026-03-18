@@ -9,7 +9,7 @@ export default function Home() {
       {/* Hero */}
       <div
         className="relative bg-gray-100"
-        style={{ height: 'calc(100vh - 55px)' }}
+        style={{ height: 'calc(100svh - 55px)', minHeight: 'calc(100vh - 55px)' }}
       >
         <img
           src={heroUrl}
@@ -34,7 +34,7 @@ export default function Home() {
         </p>
         <Link
           to="/portfolio"
-          className="text-[11px] tracking-widest uppercase border-b border-brand-black pb-px hover:opacity-50 transition-opacity duration-200"
+          className="text-[11px] tracking-widest uppercase border-b border-brand-black pb-px hover:opacity-50 transition-opacity duration-200 py-3 -my-3"
         >
           View Work
         </Link>

@@ -16,12 +16,12 @@ export default function Portfolio() {
   return (
     <div>
       {/* Category filter */}
-      <div className="flex items-center gap-6 px-6 md:px-10 py-8 border-b border-brand-line">
+      <div className="flex items-center gap-6 px-6 md:px-10 py-8 border-b border-brand-line overflow-x-auto scrollbar-none">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setActiveCategory(cat)}
-            className={`text-[11px] tracking-widest uppercase transition-opacity duration-200 pb-px ${
+            className={`text-[11px] tracking-widest uppercase transition-opacity duration-200 pb-px whitespace-nowrap ${
               activeCategory === cat
                 ? 'border-b border-brand-black opacity-100'
                 : 'opacity-40 hover:opacity-80'

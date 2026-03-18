@@ -1,5 +1,4 @@
-const portraitUrl =
-  'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=900&q=85'
+const portraitUrl = '/about.jpg'
 
 export default function About() {
   return (
@@ -9,7 +8,7 @@ export default function About() {
         <div className="bg-gray-100" style={{ aspectRatio: '4/5' }}>
           <img
             src={portraitUrl}
-            alt="Gio DeFiore"
+            alt="Giovanni DeFiore"
             loading="lazy"
             className="w-full h-full object-cover"
           />

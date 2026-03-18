@@ -10,7 +10,7 @@ export default function Contact() {
 
       <a
         href="mailto:gio@giodefiore.com"
-        className="text-[17px] tracking-wide text-brand-black border-b border-brand-line pb-px hover:border-brand-black transition-colors duration-200 mb-12"
+        className="text-[15px] md:text-[17px] tracking-wide text-brand-black border-b border-brand-line pb-px hover:border-brand-black transition-colors duration-200 mb-12 break-all"
       >
         gio@giodefiore.com
       </a>
