@@ -3,7 +3,8 @@ import { springBreakPhotos } from '../data/photos'
 import Lightbox from '../components/Lightbox'
 import useLightbox from '../hooks/useLightbox'
 
-const heroPhoto = springBreakPhotos.find((p) => p.id === 'sb-5')
+const heroPhoto = { id: 'sb-5', src: '/images/PA_SpringBreak_Selects-5.jpg', alt: 'Spring Break 2026' }
+const heroImageSrc = '/images/hero.jpg'
 
 export default function Home() {
   const lightbox = useLightbox(springBreakPhotos)
@@ -17,8 +18,8 @@ export default function Home() {
         onClick={() => lightbox.open(heroPhoto)}
       >
         <img
-          src={heroPhoto.src}
-          alt={heroPhoto.alt}
+          src={heroImageSrc}
+          alt="Giovanni DeFiore"
           loading="eager"
           className="w-full h-full object-cover"
         />
