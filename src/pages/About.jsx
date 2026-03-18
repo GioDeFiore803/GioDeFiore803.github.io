@@ -21,21 +21,19 @@ export default function About() {
             About
           </p>
           <h2 className="text-xl font-light tracking-wide mb-8 text-brand-black">
-            Gio DeFiore
+            Giovanni DeFiore
           </h2>
           <p className="text-[15px] text-brand-gray leading-[1.8] mb-5">
-            Gio DeFiore is a New York–based photographer specializing in portrait,
-            editorial, and concert photography. With a background in fine art and a
-            keen eye for light and emotion, Gio crafts images that resonate long
-            after the shutter clicks.
+            Hi, I'm Giovanni DeFiore, a 20-year-old first-year Photography and
+            Advertising major at RIT. I'm passionate about capturing emotion and
+            identity through the lens, with a particular love for self portraiture
+            and portrait photography.
           </p>
           <p className="text-[15px] text-brand-gray leading-[1.8] mb-5">
-            Their work has appeared in publications and alongside artists across
-            the music and fashion industries. Each shoot is approached with the
-            same intention: to reveal something true about the subject.
-          </p>
-          <p className="text-[13px] italic text-brand-gray">
-            Based in New York, NY — available for commissions worldwide.
+            My work focuses on exploring the human experience — how light,
+            expression, and environment come together to tell a story. Photography,
+            for me, is both a creative outlet and a way to connect with others on
+            a deeper level.
           </p>
         </div>
       </div>
