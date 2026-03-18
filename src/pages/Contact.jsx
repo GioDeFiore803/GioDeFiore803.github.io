@@ -19,7 +19,7 @@ export default function Contact() {
       <div className="flex items-center gap-8 mt-4">
         {/* Instagram */}
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/giod.photo/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -34,7 +34,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/giovannidefiore/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
