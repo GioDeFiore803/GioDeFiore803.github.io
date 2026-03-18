@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const heroUrl =
-  'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=2000&q=90'
+const heroUrl = '/images/PA_SpringBreak_Selects-5.jpg'
 
 export default function Home() {
   return (
