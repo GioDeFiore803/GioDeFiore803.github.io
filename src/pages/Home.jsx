@@ -1,22 +1,27 @@
 import { Link } from 'react-router-dom'
+import { springBreakPhotos } from '../data/photos'
+import Lightbox from '../components/Lightbox'
+import useLightbox from '../hooks/useLightbox'
 
-const heroUrl = '/images/PA_SpringBreak_Selects-5.jpg'
+const heroPhoto = springBreakPhotos.find((p) => p.id === 'sb-5')
 
 export default function Home() {
+  const lightbox = useLightbox(springBreakPhotos)
+
   return (
     <div>
-      {/* Hero */}
+      {/* Hero — click to open slideshow */}
       <div
-        className="relative bg-gray-100"
+        className="relative bg-gray-100 cursor-pointer"
         style={{ height: 'calc(100svh - 55px)', minHeight: 'calc(100vh - 55px)' }}
+        onClick={() => lightbox.open(heroPhoto)}
       >
         <img
-          src={heroUrl}
-          alt="Hero"
+          src={heroPhoto.src}
+          alt={heroPhoto.alt}
           loading="eager"
           className="w-full h-full object-cover"
         />
-        {/* Subtle gradient overlay at bottom */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
       </div>
 
@@ -38,6 +43,16 @@ export default function Home() {
           View Work
         </Link>
       </div>
+
+      {lightbox.isOpen && (
+        <Lightbox
+          photos={springBreakPhotos}
+          currentIndex={lightbox.currentIndex}
+          onClose={lightbox.close}
+          onNext={lightbox.next}
+          onPrev={lightbox.prev}
+        />
+      )}
     </div>
   )
 }
