@@ -50,6 +50,24 @@ export const projects = [
       { id: 'ff-8', src: '/images/FirstFilm-8.jpg', thumb: '/images/FirstFilm-8.jpg', alt: 'First Film Photos' },
     ],
   },
+  {
+    id: 'animals',
+    title: 'Animals',
+    cover: '/images/SI_Zoo_Selects-1.jpg',
+    photos: [
+      { id: 'an-1',  src: '/images/Carsouel_Park_Birds-1.jpg', thumb: '/images/Carsouel_Park_Birds-1.jpg', alt: 'Animals' },
+      { id: 'an-2',  src: '/images/Carsouel_Park_Birds-2.jpg', thumb: '/images/Carsouel_Park_Birds-2.jpg', alt: 'Animals' },
+      { id: 'an-3',  src: '/images/Carsouel_Park_Birds-3.jpg', thumb: '/images/Carsouel_Park_Birds-3.jpg', alt: 'Animals' },
+      { id: 'an-4',  src: '/images/Carsouel_Park_Birds-4.jpg', thumb: '/images/Carsouel_Park_Birds-4.jpg', alt: 'Animals' },
+      { id: 'an-5',  src: '/images/SI_Zoo_Selects-1.jpg',      thumb: '/images/SI_Zoo_Selects-1.jpg',      alt: 'Animals' },
+      { id: 'an-6',  src: '/images/SI_Zoo_Selects-1-2.jpg',    thumb: '/images/SI_Zoo_Selects-1-2.jpg',    alt: 'Animals' },
+      { id: 'an-7',  src: '/images/SI_Zoo_Selects-1-3.jpg',    thumb: '/images/SI_Zoo_Selects-1-3.jpg',    alt: 'Animals' },
+      { id: 'an-8',  src: '/images/SI_Zoo_Selects-1-4.jpg',    thumb: '/images/SI_Zoo_Selects-1-4.jpg',    alt: 'Animals' },
+      { id: 'an-9',  src: '/images/SI_Zoo_Selects-1-5.jpg',    thumb: '/images/SI_Zoo_Selects-1-5.jpg',    alt: 'Animals' },
+      { id: 'an-10', src: '/images/SI_Zoo_Selects-2.jpg',      thumb: '/images/SI_Zoo_Selects-2.jpg',      alt: 'Animals' },
+      { id: 'an-11', src: '/images/SI_Zoo_Selects-3.jpg',      thumb: '/images/SI_Zoo_Selects-3.jpg',      alt: 'Animals' },
+    ],
+  },
 ]
 
 // Flat list of all spring break photos — used by the Home page hero
