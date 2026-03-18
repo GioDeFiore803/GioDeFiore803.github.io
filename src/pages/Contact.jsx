@@ -9,10 +9,10 @@ export default function Contact() {
       </h2>
 
       <a
-        href="mailto:gio@giodefiore.com"
+        href="mailto:giovannidefiore3@gmail.com"
         className="text-[15px] md:text-[17px] tracking-wide text-brand-black border-b border-brand-line pb-px hover:border-brand-black transition-colors duration-200 mb-12 break-all"
       >
-        gio@giodefiore.com
+        giovannidefiore3@gmail.com
       </a>
 
       {/* Social links */}
