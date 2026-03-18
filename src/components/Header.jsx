@@ -18,7 +18,7 @@ export default function Header() {
         className="text-[11px] tracking-widest2 uppercase font-medium text-brand-black hover:opacity-60 transition-opacity duration-200"
         onClick={() => setMenuOpen(false)}
       >
-        Gio DeFiore
+        Giovanni DeFiore
       </Link>
 
       {/* Desktop Nav */}
