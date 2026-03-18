@@ -50,38 +50,6 @@ export const projects = [
       { id: 'ff-8', src: '/images/FirstFilm-8.jpg', thumb: '/images/FirstFilm-8.jpg', alt: 'First Film Photos' },
     ],
   },
-  {
-    id: 'placeholder-editorial',
-    title: 'Editorial',
-    cover: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=900&q=80',
-    photos: [
-      { id: 'ph-1', src: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=700&q=75', alt: 'Fashion editorial portrait' },
-      { id: 'ph-4', src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=75', alt: 'High fashion editorial' },
-      { id: 'ph-7', src: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700&q=75', alt: 'Model in motion editorial' },
-      { id: 'ph-10', src: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&q=75', alt: 'Fashion editorial street' },
-    ],
-  },
-  {
-    id: 'placeholder-concert',
-    title: 'Concert',
-    cover: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=900&q=80',
-    photos: [
-      { id: 'ph-2', src: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=700&q=75', alt: 'Concert stage lights' },
-      { id: 'ph-5', src: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=700&q=75', alt: 'Concert crowd' },
-      { id: 'ph-8', src: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=700&q=75', alt: 'Festival lights and crowd' },
-      { id: 'ph-11', src: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=700&q=75', alt: 'Guitarist on stage' },
-    ],
-  },
-  {
-    id: 'placeholder-portrait',
-    title: 'Portrait',
-    cover: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=900&q=80',
-    photos: [
-      { id: 'ph-3', src: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=700&q=75', alt: 'Male portrait close-up' },
-      { id: 'ph-6', src: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=700&q=75', alt: 'Female portrait dramatic lighting' },
-      { id: 'ph-9', src: 'https://images.unsplash.com/photo-1542740348-39501cd6e2b4?w=1600&q=85', thumb: 'https://images.unsplash.com/photo-1542740348-39501cd6e2b4?w=700&q=75', alt: 'Portrait with colored light' },
-    ],
-  },
 ]
 
 // Flat list of all spring break photos — used by the Home page hero
