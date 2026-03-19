@@ -26,7 +26,7 @@ export default function Home() {
           Giovanni DeFiore
         </h1>
         <p className="text-[15px] text-brand-gray leading-relaxed max-w-md mb-10">
-          Portrait, editorial, and concert photography based in New York.
+          New York-Based Photographer
         </p>
         <Link
           to="/portfolio"
