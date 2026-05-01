@@ -1,5 +1,19 @@
 export const projects = [
   {
+    id: 'sweet-but-sickening',
+    title: 'Sweet but Sickening',
+    cover: '/images/DeFiore_FinalProject_Selects-1-2.jpg',
+    photos: [
+      { id: 'fp-1',  src: '/images/DeFiore_FinalProject_Selects-1-2.jpg', thumb: '/images/DeFiore_FinalProject_Selects-1-2.jpg', alt: 'Sweet but Sickening' },
+      { id: 'fp-2',  src: '/images/DeFiore_FinalProject_Selects-2.jpg',   thumb: '/images/DeFiore_FinalProject_Selects-2.jpg',   alt: 'Sweet but Sickening' },
+      { id: 'fp-3',  src: '/images/DeFiore_FinalProject_Selects-3.jpg',   thumb: '/images/DeFiore_FinalProject_Selects-3.jpg',   alt: 'Sweet but Sickening' },
+      { id: 'fp-5',  src: '/images/DeFiore_FinalProject_Selects-5.jpg',   thumb: '/images/DeFiore_FinalProject_Selects-5.jpg',   alt: 'Sweet but Sickening' },
+      { id: 'fp-6',  src: '/images/DeFiore_FinalProject_Selects-6.jpg',   thumb: '/images/DeFiore_FinalProject_Selects-6.jpg',   alt: 'Sweet but Sickening' },
+      { id: 'fp-10', src: '/images/DeFiore_FinalProject_Selects-10.jpg',  thumb: '/images/DeFiore_FinalProject_Selects-10.jpg',  alt: 'Sweet but Sickening' },
+      { id: 'fp-11', src: '/images/DeFiore_FinalProject_Selects-11.jpg',  thumb: '/images/DeFiore_FinalProject_Selects-11.jpg',  alt: 'Sweet but Sickening' },
+    ],
+  },
+  {
     id: 'spring-break-2026',
     title: 'A day with my Mom',
     cover: '/images/PA_SpringBreak_Selects-5.jpg',
