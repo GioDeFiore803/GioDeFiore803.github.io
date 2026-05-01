@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 'sweet-but-sickening',
     title: 'Sweet but Sickening',
-    cover: '/images/DeFiore_FinalProject_Selects-1-2.jpg',
+    cover: '/images/DeFiore_FinalProject_Selects-2.jpg',
     photos: [
       { id: 'fp-1',  src: '/images/DeFiore_FinalProject_Selects-1-2.jpg', thumb: '/images/DeFiore_FinalProject_Selects-1-2.jpg', alt: 'Sweet but Sickening' },
       { id: 'fp-2',  src: '/images/DeFiore_FinalProject_Selects-2.jpg',   thumb: '/images/DeFiore_FinalProject_Selects-2.jpg',   alt: 'Sweet but Sickening' },
